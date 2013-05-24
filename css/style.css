@@ -1,0 +1,206 @@
+/* Resets */
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q,
+samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset,
+form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body {
+  min-width: 900px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.center {
+  text-align: center;
+}
+
+.content {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.header {
+  color: white;
+  background: #3498db;
+  font-size: 18px;
+  padding-top: 25px;
+  padding-bottom: 15px;
+}
+
+.header nav {
+  display: inline;
+}
+
+.header nav .logo {
+  float: left;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  top: -14px;
+  margin-right: 10px;
+  background: url(../img/bb_logo.svg);
+}
+
+.header nav ul {
+  list-style: none;
+  float: right;
+}
+
+.header nav ul li {
+  display: inline;
+  margin-left: 25px;
+}
+
+.header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header nav ul li a:hover {
+  border-bottom: 2px solid #b4dff5;
+  border-bottom: 2px solid rgba(255, 255, 255, .7);
+}
+
+.home.first {
+  color: white;
+  background: #3498db;
+  height: 250px;
+}
+
+.home.first .box {
+  position: relative;
+  top: 50px;
+  width: 550px;
+  background: #2079b1;
+  margin: 0 auto;
+  padding: 40px 40px 50px;
+  border-radius: 2px;
+}
+
+.home.first .box h1 {
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.home.first .box p {
+  font-size: 18px;
+  margin-bottom: 60px;
+}
+
+.home.first .box a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.home.first .box .button {
+  text-align: center;
+  background: #5ba8dc;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, .2);
+  border-radius: 2px;
+  font-size: 20px;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, .2);
+  padding: 25px 35px;
+}
+
+.home.second {
+  margin: 175px 0 70px;
+}
+
+.home.second .content {
+  max-width: 750px;
+}
+
+.home.second ul {
+  list-style: none;
+}
+
+.home.second li {
+  margin-bottom: 35px;
+}
+
+.home.second li .icon {
+  width: 30px;
+  height: 30px;
+  float: left;
+  margin-left: -40px;
+}
+
+.home.second li .icon.console {
+  background: url(../img/console.svg);
+}
+
+.home.second li .icon.page {
+  background: url(../img/page.svg);
+}
+
+.home.second li .icon.transfer {
+  background: url(../img/transfer.svg);
+}
+
+.home.second li .icon.apps {
+  background: url(../img/apps.svg);
+}
+
+.home.second li .icon.paintbrush {
+  background: url(../img/paintbrush.svg);
+}
+
+.home.second li .icon.checkbox {
+  background: url(../img/checkbox.svg);
+}
+
+.home.second li .icon.tools {
+  background: url(../img/tools.svg);
+}
+
+.home.second li h1 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.home.second li p {
+  font-size: 16px;
+}
+
+.home.second li h1 a {
+  color: #2079B1;
+  text-decoration: none;
+}
+
+.home.second li h1 a:hover {
+  text-decoration: underline;
+}
+
+.home.third {
+  height: 300px;
+  background: #34495e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
