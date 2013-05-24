@@ -14,6 +14,8 @@ video {
 	background: transparent;
 }
 
+/* common */
+
 body {
   min-width: 900px;
   font-family: 'Open Sans', sans-serif;
@@ -28,12 +30,14 @@ body {
   max-width: 900px;
 }
 
+/* header */
+
 .header {
   color: white;
   background: #3498db;
   font-size: 18px;
   padding-top: 25px;
-  padding-bottom: 15px;
+  padding-bottom: 25px;
 }
 
 .header nav {
@@ -50,6 +54,11 @@ body {
   background: url(../img/bb_logo.svg);
 }
 
+.header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .header nav ul {
   list-style: none;
   float: right;
@@ -60,15 +69,12 @@ body {
   margin-left: 25px;
 }
 
-.header nav ul li a {
-  color: #fff;
-  text-decoration: none;
-}
-
 .header nav ul li a:hover {
   border-bottom: 2px solid #b4dff5;
   border-bottom: 2px solid rgba(255, 255, 255, .7);
 }
+
+/* home */
 
 .home.first {
   color: white;
@@ -78,7 +84,7 @@ body {
 
 .home.first .box {
   position: relative;
-  top: 50px;
+  top: 25px;
   width: 550px;
   background: #2079b1;
   margin: 0 auto;
@@ -112,7 +118,7 @@ body {
 }
 
 .home.second {
-  margin: 175px 0 70px;
+  margin: 145px 0 70px;
 }
 
 .home.second .content {
@@ -185,22 +191,150 @@ body {
   background: #34495e;
 }
 
+/* documentation */
 
+.docs .content {
+  position: relative;
+  margin: 10px auto;
+  margin-bottom: 10px;
+  width: 900px;
+  /*border: 1px solid #ccc;*/
+  /*border-radius: 3px;*/
+}
 
+.docs .sidebar {
+  position: absolute;
+  top: 20px;
+  /*bottom: 0;*/
+  display: inline-block;
+  width: 190px;
+  /*border-radius: 3px;*/
+  /*border-bottom-right-radius: 0;*/
+  /*background: #fafafa;*/
+}
 
+.docs .sidebar h1 {
+  margin-top: 25px;
+  margin-bottom: 12px;
+}
 
+.docs .sidebar h1:first-child {
+  margin-top: 0;
+}
 
+.docs .sidebar h1 a {
+  color: #404040;
+  text-decoration: none;
+}
 
+.docs .sidebar ul {
+  list-style: none;
+}
 
+.docs .sidebar ul li {
+  /*border-top: 1px solid #fff;*/
+  /*border-bottom: 1px solid #ccc;*/
+  /*background: #fafafa;*/
+  /*font-weight: bold;*/
+  font-size: 15px;
+  margin: 0 0 10px 5px;
+}
 
+/*.docs .sidebar ul li div {
+  padding: 7px 10px;
+}*/
 
+.docs .sidebar ul li.active {
+  /*background: #fff;*/
+  color: #333;
+}
 
+.docs .sidebar ul li:first-child {
+  /*border-top-left-radius: 3px;*/
+}
 
+.docs .sidebar ul li a {
+  color: #666;
+  text-decoration: none;
+}
 
+.docs .sidebar ul li a:hover {
+  text-decoration: underline;
+}
 
+/*.docs .sidebar ul li a:hover {
+  background: #fff;
+  cursor: pointer;
+}*/
 
+.docs .page {
+  margin-left: 190px;
+  min-height: 500px;
+  /*border-left: 1px solid #ccc;*/
+  /*border-top-right-radius: 3px;*/
+  /*border-bottom-right-radius: 3px;*/
+}
 
+.docs .page {
+  padding: 20px;
+  background: #fff;
+  color: #333;
+  font-size: 16px;
+  line-height: 1.5em;
+}
 
+.docs .page h1 {
+  margin-bottom: 0.75em;
+  font-size: 36px;
+  font-weight: normal;
+}
 
+.docs .page h2 {
+  margin-top: 1.2em;
+  margin-bottom: 0.75em;
+  font-size: 28px;
+  font-weight: normal;
+}
 
+.docs .page p {
+  margin-bottom: 0.75em;
+}
 
+.docs .page ul {
+  list-style-position: inside;
+  margin-left: 10px;
+  margin-bottom: 1em;
+}
+
+.docs .page code {
+  padding: 0 6px;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  background: #fafafa;
+  font-size: 15px;
+  font-family: Menlo, Consolas, Monaco, "Lucida Console", monospace;
+}
+
+.docs .page pre code {
+  display: block;
+  overflow-y: auto;
+  margin-bottom: 15px;
+  padding: 10px;
+  line-height: 1.33em;
+  color: inherit;
+}
+
+.docs .page a { color: #234878; }
+
+.docs .single-page .page {
+  border-radius: 3px;
+}
+
+.docs .single-page .content-area {
+  position: relative;
+  margin: 10px auto;
+  margin-bottom: 10px;
+  width: 900px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
