@@ -6,6 +6,9 @@ layout: docs
 
 Use the `medications` method to retrieve a list of all medications.
 
+- This is an [example link](/docs).
+- This is an [example link]({{ site.url }}/docs).
+
 Donec ullamcorper nulla non metus auctor fringilla. Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor fringilla. Cras mattis consectetur purus sit amet fermentum.
 
 ## Second Header
