@@ -105,7 +105,7 @@ Use sample data and convert: <button onclick="load('bb_ref_ccda')">Blue Button R
 <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
 <script src="https://raw.github.com/blue-button/bluebutton.js/master/build/bluebutton.js"></script>
 <script>
-  
+  var baseURL = "{{ site.baseurl }}";
   var xml, bb;
   var doc = document.getElementById('document');
   var demographics = document.getElementById('demographics');
@@ -135,7 +135,7 @@ Use sample data and convert: <button onclick="load('bb_ref_ccda')">Blue Button R
         break;
       case 'va_c32': url = '/VA_CCD_Sample_File_Version_12_4.xml';
         break;
-      case 'bb_ref_ccda': url = '/files/blue_button_reference_ccda.xml'
+      case 'bb_ref_ccda': url = baseURL + '/files/blue_button_reference_ccda.xml';
     }
     
     xhReq.open('GET', url, false);
