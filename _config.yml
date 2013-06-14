@@ -2,3 +2,4 @@ name: Blue Button for Developers
 relative_permalinks: false
 pygments: true
 baseurl: /blue-button-for-developers
+markdown: redcarpet
