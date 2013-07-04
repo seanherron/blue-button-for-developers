@@ -103,7 +103,7 @@ Use sample data and convert: <button onclick="load('bb_ref_ccda')">Blue Button R
 <pre><code id="vitals" class="javascript"></code></pre>
 
 <script src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
-<script src="https://raw.github.com/blue-button/bluebutton.js/master/build/bluebutton.js"></script>
+<script src="https://rawgithub.com/blue-button/bluebutton.js/master/build/bluebutton.js"></script>
 <script>
   var baseURL = "{{ site.baseurl }}";
   var xml, bb;
